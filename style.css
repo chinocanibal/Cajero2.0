@@ -1,0 +1,58 @@
+
+body{
+    background-color: rebeccapurple;
+    font-family:   'Franklin Gothic Medium';
+}
+
+.hide{
+    display: none;
+    
+}
+
+.containerPop{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.containerPop .popUp{
+    visibility: hidden;
+    width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.containerPop .popUp ::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    
+}
+
+.containerPop .show{
+    visibility: visible;
+}
+
+#b{
+    margin:5px 0px 20px 0px;
+}
+
+.th{
+    font-size: 17px;
+    font-family: Verdana;
+    padding: 0px 10px 0px 10px;
+}

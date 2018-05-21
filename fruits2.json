@@ -1,0 +1,33 @@
+	  {
+	"items": [{
+			"fruit0": {
+				"type": "Tomato",
+				"uCost": 0.50,
+				"quantity": 0
+			}
+		},
+		{
+			"fruit1": {
+				"type": "Banana",
+				"uCost": 0.65,
+				"quantity": 0
+			}
+		},
+		{
+			"fruit2": {
+				"type": "Lemon",
+				"uCost": 1.3,
+				"quantity": 0
+			}
+		},
+		{
+			"fruit3": {
+				"type": "Blueberry",
+				"uCost": 1.6,
+				"quantity": 0
+			}
+		}
+		
+		
+	]
+}
